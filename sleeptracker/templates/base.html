@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8" />
+  <head>
+    <title>Sleepercell</title>
+    <link href="{{ STATIC_URL }}css/style.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/protovis-r3.2.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Sleepercell</h1>
+      <nav>
+	<a href="#">Login</a>
+      </nav>
+    </header>
+    <section>
+      {% block content %}
+      {% endblock %}
+    </section>
+    <footer>
+    </footer>
+  </body>
+</html>
+

@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% if user.first_name %}
+  <h1>{{ user.fist_name }}'s</h1>
+{% else %}
+  <h1>{{ user.username }}'s</h1>
+{% endif %}
+
+<h2>SLEEP HISTORY</h2>
+
+{% if cstate %}
+<div id="current-status">
+  {% if cstate.is_awake %}
+  <strong>CURRENTLY AWAKE</strong>
+  {% else %} 
+  <strong>CURRENTLY ASLEEP</strong>
+  {% endif %}
+  <span><time>{{ cstate.date }}</time></span>
+</div>
+{% endif %}
+
+<div id="fig">
+ <script type="text/javascript+protovis">
+var data = {{ data|safe }};
+
+var time = ["00:00", "04:00", "08:00", "12:00", "16:00", "20:00", "24:00"];
+
+/* Sizing and scales. */
+var w = 700,
+    h = 400,
+    n = {{ count }},
+    x = pv.Scale.linear(0, n - 1).range(0, w),
+    y = pv.Scale.linear(0, 1440).range(0, h),
+    c = pv.Scale.log(1, 100).range("orange", "brown");
+
+/* The root panel. */
+var vis = new pv.Panel()
+    .width(w)
+    .height(h)
+    .bottom(20)
+    .left(40)
+    .right(40)
+    .top(5);
+
+/* Y-axis and ticks. */
+vis.add(pv.Label)
+    .textStyle("rgb(41, 41, 41)")
+    .data(y.ticks())
+    .bottom(y)
+    .left(-10)
+    .textAlign("right")
+    .text(y.tickFormat);
+
+/* X-axis and ticks. */
+vis.add(pv.Label)
+    .textStyle("#fff")
+    .data(x.ticks())
+    .left(x)
+    .bottom(-20)				      
+    .fillStyle("#FFF")
+    .text(x.tickFormat);
+
+/* The dot plot! */
+vis.add(pv.Panel)
+    .data(data)
+  .add(pv.Bar)
+    .left(function(d) x(d.x))
+    .top(function(d) y(d.y))
+    .bottom(function(d) h - y(d.z)) 
+    .width((w / n) - 2)
+    .fillStyle("rgb(149, 221, 39)");
+
+vis.render();
+ </script>
+ <div id="bg"></div>
+</div>
+
+{% endblock %}

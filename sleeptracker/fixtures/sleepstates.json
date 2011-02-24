@@ -1,0 +1,1002 @@
+[
+    {
+        "pk": 99, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-04 23:00:00", 
+            "state": 0, 
+            "end": "2011-01-05 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 98, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-05 07:00:00", 
+            "state": 1, 
+            "end": "2011-01-05 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 97, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-05 23:00:00", 
+            "state": 0, 
+            "end": "2011-01-06 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 96, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-06 07:00:00", 
+            "state": 1, 
+            "end": "2011-01-06 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 95, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-06 23:00:00", 
+            "state": 0, 
+            "end": "2011-01-07 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 94, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-07 07:00:00", 
+            "state": 1, 
+            "end": "2011-01-07 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 93, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-07 23:00:00", 
+            "state": 0, 
+            "end": "2011-01-08 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 92, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-08 07:00:00", 
+            "state": 1, 
+            "end": "2011-01-08 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 91, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-08 23:00:00", 
+            "state": 0, 
+            "end": "2011-01-09 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 90, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-09 07:00:00", 
+            "state": 1, 
+            "end": "2011-01-09 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 89, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-09 23:00:00", 
+            "state": 0, 
+            "end": "2011-01-10 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 88, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-10 07:00:00", 
+            "state": 1, 
+            "end": "2011-01-10 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 87, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-10 23:00:00", 
+            "state": 0, 
+            "end": "2011-01-11 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 86, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-11 07:00:00", 
+            "state": 1, 
+            "end": "2011-01-11 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 85, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-11 23:00:00", 
+            "state": 0, 
+            "end": "2011-01-12 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 84, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-12 07:00:00", 
+            "state": 1, 
+            "end": "2011-01-12 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 83, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-12 23:00:00", 
+            "state": 0, 
+            "end": "2011-01-13 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 82, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-13 07:00:00", 
+            "state": 1, 
+            "end": "2011-01-13 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 81, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-13 23:00:00", 
+            "state": 0, 
+            "end": "2011-01-14 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 80, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-14 07:00:00", 
+            "state": 1, 
+            "end": "2011-01-14 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 79, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-14 23:00:00", 
+            "state": 0, 
+            "end": "2011-01-15 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 78, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-15 07:00:00", 
+            "state": 1, 
+            "end": "2011-01-15 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 77, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-15 23:00:00", 
+            "state": 0, 
+            "end": "2011-01-16 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 76, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-16 07:00:00", 
+            "state": 1, 
+            "end": "2011-01-16 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 75, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-16 23:00:00", 
+            "state": 0, 
+            "end": "2011-01-17 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 74, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-17 07:00:00", 
+            "state": 1, 
+            "end": "2011-01-17 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 73, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-17 23:00:00", 
+            "state": 0, 
+            "end": "2011-01-18 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 72, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-18 07:00:00", 
+            "state": 1, 
+            "end": "2011-01-18 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 71, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-18 23:00:00", 
+            "state": 0, 
+            "end": "2011-01-19 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 70, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-19 07:00:00", 
+            "state": 1, 
+            "end": "2011-01-19 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 69, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-19 23:00:00", 
+            "state": 0, 
+            "end": "2011-01-20 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 68, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-20 07:00:00", 
+            "state": 1, 
+            "end": "2011-01-20 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 67, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-20 23:00:00", 
+            "state": 0, 
+            "end": "2011-01-21 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 66, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-21 07:00:00", 
+            "state": 1, 
+            "end": "2011-01-21 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 65, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-21 23:00:00", 
+            "state": 0, 
+            "end": "2011-01-22 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 64, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-22 07:00:00", 
+            "state": 1, 
+            "end": "2011-01-22 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 63, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-22 23:00:00", 
+            "state": 0, 
+            "end": "2011-01-23 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 62, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-23 07:00:00", 
+            "state": 1, 
+            "end": "2011-01-23 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 61, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-23 23:00:00", 
+            "state": 0, 
+            "end": "2011-01-24 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 60, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-24 07:00:00", 
+            "state": 1, 
+            "end": "2011-01-24 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 59, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-24 23:00:00", 
+            "state": 0, 
+            "end": "2011-01-25 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 58, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-25 07:00:00", 
+            "state": 1, 
+            "end": "2011-01-25 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 57, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-25 23:00:00", 
+            "state": 0, 
+            "end": "2011-01-26 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 56, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-26 07:00:00", 
+            "state": 1, 
+            "end": "2011-01-26 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 55, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-26 23:00:00", 
+            "state": 0, 
+            "end": "2011-01-27 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 54, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-27 07:00:00", 
+            "state": 1, 
+            "end": "2011-01-27 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 53, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-27 23:00:00", 
+            "state": 0, 
+            "end": "2011-01-28 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 52, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-28 07:00:00", 
+            "state": 1, 
+            "end": "2011-01-28 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 51, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-28 23:00:00", 
+            "state": 0, 
+            "end": "2011-01-29 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 50, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-29 07:00:00", 
+            "state": 1, 
+            "end": "2011-01-29 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 49, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-29 23:00:00", 
+            "state": 0, 
+            "end": "2011-01-30 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 48, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-30 07:00:00", 
+            "state": 1, 
+            "end": "2011-01-30 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 47, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-30 23:00:00", 
+            "state": 0, 
+            "end": "2011-01-31 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 46, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-31 07:00:00", 
+            "state": 1, 
+            "end": "2011-01-31 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 45, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-01-31 23:00:00", 
+            "state": 0, 
+            "end": "2011-02-01 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 44, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-01 07:00:00", 
+            "state": 1, 
+            "end": "2011-02-01 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 43, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-01 23:00:00", 
+            "state": 0, 
+            "end": "2011-02-02 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 42, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-02 07:00:00", 
+            "state": 1, 
+            "end": "2011-02-02 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 41, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-02 23:00:00", 
+            "state": 0, 
+            "end": "2011-02-03 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 40, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-03 07:00:00", 
+            "state": 1, 
+            "end": "2011-02-03 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 39, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-03 23:00:00", 
+            "state": 0, 
+            "end": "2011-02-04 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 38, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-04 07:00:00", 
+            "state": 1, 
+            "end": "2011-02-04 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 37, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-04 23:00:00", 
+            "state": 0, 
+            "end": "2011-02-05 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 36, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-05 07:00:00", 
+            "state": 1, 
+            "end": "2011-02-05 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 35, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-05 23:00:00", 
+            "state": 0, 
+            "end": "2011-02-06 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 34, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-06 07:00:00", 
+            "state": 1, 
+            "end": "2011-02-06 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 33, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-06 23:00:00", 
+            "state": 0, 
+            "end": "2011-02-07 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 32, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-07 07:00:00", 
+            "state": 1, 
+            "end": "2011-02-07 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 31, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-07 23:00:00", 
+            "state": 0, 
+            "end": "2011-02-08 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 30, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-08 07:00:00", 
+            "state": 1, 
+            "end": "2011-02-08 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 29, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-08 23:00:00", 
+            "state": 0, 
+            "end": "2011-02-09 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 28, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-09 07:00:00", 
+            "state": 1, 
+            "end": "2011-02-09 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 27, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-09 23:00:00", 
+            "state": 0, 
+            "end": "2011-02-10 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 26, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-10 07:00:00", 
+            "state": 1, 
+            "end": "2011-02-10 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 25, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-10 23:00:00", 
+            "state": 0, 
+            "end": "2011-02-11 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 24, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-11 07:00:00", 
+            "state": 1, 
+            "end": "2011-02-11 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 23, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-11 23:00:00", 
+            "state": 0, 
+            "end": "2011-02-12 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 22, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-12 07:00:00", 
+            "state": 1, 
+            "end": "2011-02-12 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-12 23:00:00", 
+            "state": 0, 
+            "end": "2011-02-13 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-13 07:00:00", 
+            "state": 1, 
+            "end": "2011-02-13 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-13 23:00:00", 
+            "state": 0, 
+            "end": "2011-02-14 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-14 07:00:00", 
+            "state": 1, 
+            "end": "2011-02-14 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-14 23:00:00", 
+            "state": 0, 
+            "end": "2011-02-15 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-15 07:00:00", 
+            "state": 1, 
+            "end": "2011-02-15 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-15 23:00:00", 
+            "state": 0, 
+            "end": "2011-02-16 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-16 07:00:00", 
+            "state": 1, 
+            "end": "2011-02-16 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-16 23:00:00", 
+            "state": 0, 
+            "end": "2011-02-17 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-17 07:00:00", 
+            "state": 1, 
+            "end": "2011-02-17 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-17 23:00:00", 
+            "state": 0, 
+            "end": "2011-02-18 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-18 07:00:00", 
+            "state": 1, 
+            "end": "2011-02-18 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-18 23:00:00", 
+            "state": 0, 
+            "end": "2011-02-19 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-19 07:00:00", 
+            "state": 1, 
+            "end": "2011-02-19 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-19 23:00:00", 
+            "state": 0, 
+            "end": "2011-02-20 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-20 07:00:00", 
+            "state": 1, 
+            "end": "2011-02-20 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-20 23:00:00", 
+            "state": 0, 
+            "end": "2011-02-21 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-21 07:00:00", 
+            "state": 1, 
+            "end": "2011-02-21 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-21 23:00:00", 
+            "state": 0, 
+            "end": "2011-02-22 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-22 07:00:00", 
+            "state": 1, 
+            "end": "2011-02-22 23:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-22 23:00:00", 
+            "state": 0, 
+            "end": "2011-02-23 07:00:00", 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 0, 
+        "model": "sleeptracker.sleepstate", 
+        "fields": {
+            "start": "2011-02-23 07:00:00", 
+            "state": 1, 
+            "end": "2011-02-23 23:00:00", 
+            "user": 1
+        }
+    }
+]
