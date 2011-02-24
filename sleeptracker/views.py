@@ -22,7 +22,7 @@ def timeslices(start, end, t):
         return [(start, split)] + timeslices(split, end, t)
 
 def x(d, t, c):
-    return c - (t-d).days
+    return c - (t-d).days + 1
 
 def y(dt, t):
     offset = t.hour * 60 + t.minute
@@ -41,6 +41,10 @@ def z(dt, t):
         return result + 1440
     else:
         return result
+
+def yaxis(t):
+    hour = t.hour
+    return dict((1440 - a * 180, "%s:%02d" % ((hour + a * 3) % 24, t.minute)) for a in range(0, 9))
 
 
 class UserView(DetailView):
@@ -67,6 +71,7 @@ class UserView(DetailView):
         
         context["data"] = json.dumps(proto)
         context["count"] = c
+        context["yaxis"] = yaxis(t)
         if len(data):
             context['cstate'] = data[0]
         return context

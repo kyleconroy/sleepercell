@@ -25,7 +25,8 @@
  <script type="text/javascript+protovis">
 var data = {{ data|safe }};
 
-var time = ["00:00", "04:00", "08:00", "12:00", "16:00", "20:00", "24:00"];
+var yaxis = [0, 180, 360, 540, 720, 900, 1080, 1260, 1440];
+var yticks = {{ yaxis|safe }};
 
 /* Sizing and scales. */
 var w = 700,
@@ -42,16 +43,16 @@ var vis = new pv.Panel()
     .bottom(20)
     .left(40)
     .right(40)
-    .top(5);
+    .top(30);
 
 /* Y-axis and ticks. */
 vis.add(pv.Label)
     .textStyle("rgb(41, 41, 41)")
-    .data(y.ticks())
+    .data(yaxis)
     .bottom(y)
     .left(-10)
     .textAlign("right")
-    .text(y.tickFormat);
+    .text(function(d) yticks[d]);
 
 /* X-axis and ticks. */
 vis.add(pv.Label)
