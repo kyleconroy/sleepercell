@@ -31,7 +31,7 @@ var time = ["00:00", "04:00", "08:00", "12:00", "16:00", "20:00", "24:00"];
 var w = 700,
     h = 400,
     n = {{ count }},
-    x = pv.Scale.linear(0, n - 1).range(0, w),
+    x = pv.Scale.linear(0, n).range(0, w),
     y = pv.Scale.linear(0, 1440).range(0, h),
     c = pv.Scale.log(1, 100).range("orange", "brown");
 

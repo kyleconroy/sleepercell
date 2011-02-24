@@ -21,10 +21,8 @@ def timeslices(start, end, t):
     else:
         return [(start, split)] + timeslices(split, end, t)
 
-def x(start, t):
-    if start.time() < t:
-        return start.timetuple().tm_yday - 1
-    return start.timetuple().tm_yday
+def x(d, t, c):
+    return c - (t-d).days
 
 def y(dt, t):
     offset = t.hour * 60 + t.minute
@@ -62,10 +60,13 @@ class UserView(DetailView):
         slices = []
         for ss in data:
             slices += timeslices(ss.start, ss.end, t)
-        proto = [ {"x": x(s[0], t), "y": y(s[0], t), "z": z(s[1], t)} for s in slices] 
-
+        l = slices[:1][0][0]
+        f = slices[-1:][0][0]
+        c = (l - f).days
+        proto = [ {"x": x(s[0], l, c), "y": y(s[0], t), "z": z(s[1], t), "data": str(s[0])} for s in slices]
+        
         context["data"] = json.dumps(proto)
-        context["count"] = len(data)
+        context["count"] = c
         if len(data):
             context['cstate'] = data[0]
         return context
